@@ -1,0 +1,101 @@
+size,pivot,partition,callback,time
+1000,Median of 3,Lomuto,Insertion Sort,2.8000000000000003e-05
+2000,Median of 3,Lomuto,Insertion Sort,8.4e-05
+3000,First Value,Lomuto,Insertion Sort,0.00015
+4000,First Value,Lomuto,Insertion Sort,0.000215
+5000,First Value,Lomuto,Insertion Sort,0.000269
+6000,Median of 3,Lomuto,Insertion Sort,0.000332
+7000,Median of 3,Lomuto,Insertion Sort,0.000389
+8000,First Value,Lomuto,Insertion Sort,0.000455
+9000,First Value,Lomuto,Insertion Sort,0.0005139999999999999
+10000,First Value,Lomuto,Insertion Sort,0.000596
+11000,Median of 3,Lomuto,Insertion Sort,0.000668
+12000,First Value,Lomuto,Insertion Sort,0.000699
+13000,Median of 3,Lomuto,Insertion Sort,0.000801
+14000,Median of 3,Lomuto,Insertion Sort,0.0008550000000000001
+15000,First Value,Lomuto,Insertion Sort,0.0009029999999999999
+16000,Median of 3,Lomuto,Insertion Sort,0.000935
+17000,First Value,Lomuto,Insertion Sort,0.001007
+18000,First Value,Lomuto,Insertion Sort,0.00105
+19000,First Value,Lomuto,Insertion Sort,0.0011359999999999999
+20000,Median of 3,Lomuto,Insertion Sort,0.0012259999999999999
+21000,Median of 3,Lomuto,Insertion Sort,0.001274
+22000,First Value,Lomuto,Insertion Sort,0.001312
+23000,Median of 3,Lomuto,Insertion Sort,0.001368
+24000,Median of 3,Lomuto,Insertion Sort,0.001463
+25000,Median of 3,Lomuto,Insertion Sort,0.001478
+26000,Median of 3,Lomuto,Insertion Sort,0.0016129999999999999
+27000,Median of 3,Lomuto,Insertion Sort,0.0017230000000000001
+28000,First Value,Lomuto,Insertion Sort,0.0017579999999999998
+29000,Median of 3,Lomuto,Insertion Sort,0.001808
+30000,First Value,Lomuto,Insertion Sort,0.001837
+31000,First Value,Lomuto,Insertion Sort,0.0019100000000000002
+32000,Median of 3,Lomuto,Insertion Sort,0.0019850000000000002
+33000,Median of 3,Lomuto,Insertion Sort,0.002059
+34000,First Value,Lomuto,Insertion Sort,0.00215
+35000,First Value,Lomuto,Insertion Sort,0.002196
+36000,Median of 3,Lomuto,Insertion Sort,0.002239
+37000,Median of 3,Lomuto,Insertion Sort,0.002339
+38000,Median of 3,Lomuto,Insertion Sort,0.002393
+39000,First Value,Lomuto,Insertion Sort,0.002503
+40000,Median of 3,Lomuto,Insertion Sort,0.00257
+41000,Median of 3,Lomuto,Insertion Sort,0.002635
+42000,Median of 3,Lomuto,Insertion Sort,0.002648
+43000,Median of 3,Lomuto,Insertion Sort,0.002666
+44000,First Value,Lomuto,Insertion Sort,0.002782
+45000,Median of 3,Lomuto,Insertion Sort,0.00282
+46000,Median of 3,Lomuto,Insertion Sort,0.0029920000000000003
+47000,Median of 3,Lomuto,Insertion Sort,0.00303
+48000,First Value,Lomuto,Insertion Sort,0.003088
+49000,First Value,Lomuto,Insertion Sort,0.003152
+50000,Median of 3,Lomuto,Insertion Sort,0.0033299999999999996
+51000,First Value,Lomuto,Insertion Sort,0.0032340000000000003
+52000,Median of 3,Lomuto,Insertion Sort,0.003421
+53000,First Value,Lomuto,Insertion Sort,0.003433
+54000,First Value,Lomuto,Insertion Sort,0.0035329999999999997
+55000,Median of 3,Lomuto,Insertion Sort,0.003629
+56000,Median of 3,Lomuto,Insertion Sort,0.003575
+57000,Median of 3,Lomuto,Insertion Sort,0.0038009999999999997
+58000,Median of 3,Lomuto,Insertion Sort,0.0038020000000000003
+59000,Median of 3,Lomuto,Insertion Sort,0.003693
+60000,Median of 3,Lomuto,Insertion Sort,0.003912
+61000,First Value,Lomuto,Insertion Sort,0.004065999999999999
+62000,Median of 3,Lomuto,Insertion Sort,0.004097
+63000,Median of 3,Lomuto,Insertion Sort,0.004116
+64000,Median of 3,Lomuto,Insertion Sort,0.004275
+65000,Median of 3,Lomuto,Insertion Sort,0.0042369999999999994
+66000,Median of 3,Lomuto,Insertion Sort,0.004409000000000001
+67000,Median of 3,Lomuto,Insertion Sort,0.004409000000000001
+68000,Median of 3,Lomuto,Insertion Sort,0.004536
+69000,First Value,Lomuto,Insertion Sort,0.004573
+70000,First Value,Lomuto,Insertion Sort,0.0046890000000000005
+71000,First Value,Lomuto,Insertion Sort,0.004622
+72000,Median of 3,Lomuto,Insertion Sort,0.0046170000000000004
+73000,Median of 3,Lomuto,Insertion Sort,0.004841
+74000,Median of 3,Lomuto,Insertion Sort,0.005027
+75000,Median of 3,Lomuto,Insertion Sort,0.00506
+76000,First Value,Lomuto,Insertion Sort,0.0050810000000000004
+77000,First Value,Lomuto,Insertion Sort,0.0052049999999999996
+78000,First Value,Lomuto,Insertion Sort,0.005215999999999999
+79000,First Value,Lomuto,Insertion Sort,0.0053100000000000005
+80000,First Value,Lomuto,Insertion Sort,0.005386
+81000,First Value,Lomuto,Insertion Sort,0.005321
+82000,Median of 3,Lomuto,Insertion Sort,0.00548
+83000,Median of 3,Lomuto,Insertion Sort,0.00556
+84000,Median of 3,Lomuto,Insertion Sort,0.005693999999999999
+85000,First Value,Lomuto,Insertion Sort,0.0058119999999999995
+86000,Median of 3,Lomuto,Insertion Sort,0.005872
+87000,Median of 3,Lomuto,Insertion Sort,0.005861
+88000,Median of 3,Lomuto,Insertion Sort,0.006038
+89000,First Value,Lomuto,Insertion Sort,0.0060409999999999995
+90000,Median of 3,Lomuto,Insertion Sort,0.006205
+91000,Median of 3,Lomuto,Insertion Sort,0.006206000000000001
+92000,Median of 3,Lomuto,Insertion Sort,0.006246
+93000,First Value,Lomuto,Insertion Sort,0.0064540000000000005
+94000,Median of 3,Lomuto,Insertion Sort,0.006314999999999999
+95000,Median of 3,Lomuto,Insertion Sort,0.006494
+96000,Median of 3,Lomuto,Insertion Sort,0.006498
+97000,Median of 3,Lomuto,Insertion Sort,0.0066
+98000,Median of 3,Lomuto,Insertion Sort,0.006483
+99000,Median of 3,Lomuto,Insertion Sort,0.006585
+100000,Median of 3,Lomuto,Insertion Sort,0.006936

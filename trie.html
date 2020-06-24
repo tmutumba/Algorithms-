@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Text predictor</title>
+</head>
+
+<body>
+    <input type="text" am-controller="$search" am-bind="search" am-on-input="input"
+        onkeydown="tabcomplete(this);"></input>
+    <ol am-controller="$results" am-for="match in matches">
+        <li>{{match}}</li>
+    </ol>
+    <script type="text/javascript" src="mvc.js"></script>
+    <script type="text/javascript" src="trie.js"></script>
+    <script type="text/javascript" src="dict.js"></script>
+    <script type="text/javascript">
+
+        let model = new Angstrom.Model({
+            languages: Object.keys(dict_trie),
+            language: 'english',
+            search: '',
+            matches: []
+        });
+
+        let tabcomplete = function (el) {
+            let evt = window.event;
+            var code = evt.keyCode;
+            if (code == 9 && model.$state.matches.length > 0) {
+                el.value = model.$state.search = model.$state.matches[0];
+                model.notifyAll();
+                if (evt.preventDefault) {
+                    evt.preventDefault();
+                }
+                else {
+                    evt.returnValue = false;
+                }
+            }
+            console.log(evt);
+        };
+
+        let changeLang = function (el) {
+            model.$state.language = el.options[el.selectedIndex].value;
+            model.notifyAll();
+        };
+
+        let search = new Angstrom.Controller('$search', model, {
+            "$update": function ($state, model) {
+                if (typeof dict_trie[$state.language] !== "object") {
+                    dict_trie[$state.language] = new Trie(b64DecodeUnicode(dict_trie[$state.language]).split('\n'));
+                }
+
+                $state.matches = dict_trie[$state.language].findWithPrefix($state.search.toLowerCase(), 10);
+            },
+            "input": function ($state, model, element) {
+                model.$state.search = element.value;
+                model.notifyAll();
+            }
+        });
+
+        let language = new Angstrom.Controller('$language', model, {
+            "$update": function ($state, model, elements) {
+                elements.forEach(element => element.selectedIndex = $state.languages.indexOf($state.language));
+            }
+        })
+
+        let results = new Angstrom.Controller('$results', model);
+        model.notifyAll();
+    </script>
+</body>
+
+</html>
